@@ -1,0 +1,364 @@
+.header {
+    color: black;
+    margin-top: 25px;
+}
+
+.colorTextHeader {
+    color: #004d71;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.ferstScreen .row div,
+.therthScreen .row .aboutPhoto {
+    padding: 0px;
+}
+
+.ferstScreen .row div img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.secondScreen .titelText {
+    margin-top: 50px;
+}
+
+.secondScreen .aboutText,
+.secondScreen .aboutTextSecond {
+    margin-top: 25px;
+    color: #808184;
+    font-size: 14pt;
+}
+
+.secondScreen .aboutTextSecond {
+    margin-bottom: 50px;
+}
+
+.buttonBookNow {
+    background-color: #004d71;
+    color: white;
+    text-align: center;
+    font-size: 14pt;
+    height: 35px;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+
+
+.therthScreen .exploer {
+    background-color: #004d71;
+    color: white;
+    text-align: left;
+}
+
+
+
+.therthScreen .aboutText .ferstText,
+.therthScreen .aboutText .secondText,
+.therthScreen .aboutText .therstText {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.therthScreen .aboutButton a .aboutButtonFerst,
+.therthScreen .aboutButton a .aboutButtonSecond,
+.therthScreen .aboutButton a .aboutButtonTherst {
+    background-color: #808083;
+    color: white;
+    text-align: center;
+    width: 20%;
+    float: left;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    margin-top: 35px;
+    height: 35px;
+    padding-top: 4px;
+}
+
+.footer .line hr {
+    margin-top: 50px;
+    height: 2px;
+    border: none;
+    background: linear-gradient(to right, transparent, #999999, #999999, transparent);
+}
+
+.footer .details,
+.footer .linkAndSocialLink {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer .details a {
+    text-decoration: none;
+    color: #808083;
+}
+
+.footer .linkAndSocialLink a {
+    text-decoration: none;
+}
+
+.footer .linkAndSocialLink .fb img {
+    height: 24px;
+}
+
+.footer .linkAndSocialLink .youtube img {
+    height: 30px;
+}
+
+.footer .linkAndSocialLink .instagram img,
+.footer .linkAndSocialLink .twitter img {
+    height: 25px;
+}
+
+.footer .footerBotom .contentBlock {
+    background-color: #e7e7e8;
+    text-align: center;
+    color: #808083;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer .footerBotom .contentBlock .contentBlockTextSecond {
+    padding-top: 6px;
+}
+
+.footer .footerBotom .contentBlock .contentBlockText {
+    font-size: 20pt;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .header .taglineSmall,
+    .therthScreen .row .aboutPhoto .ferstPhoto .ferstTextSmall,
+    .therthScreen .row .aboutPhoto .secondPhoto .secondTextSmall,
+    .therthScreen .row .aboutPhoto .therstPhoto .therstTextSmall,
+    .therthScreen .aboutPhoto .aboutButtonFerstSmall,
+    .therthScreen .aboutPhoto .aboutButtonSecondSmall,
+    .therthScreen .aboutPhoto .aboutButtonTherstSmall,
+    .footer .footerBotom .row .contentBlockTextSmall {
+        display: none;
+    }
+    .logo a img {
+        margin-top: 15px;
+    }
+    .header .tagline,
+    .secondScreen .titelText,
+    .therthScreen .aboutText .ferstText,
+    .therthScreen .aboutText .secondText,
+    .therthScreen .aboutText .therstText {
+        font-size: 22pt;
+    }
+    .therthScreen .aboutText .ferstText,
+    .therthScreen .aboutText .secondText,
+    .therthScreen .aboutText .therstText {
+        font-weight: 300;
+    }
+    .therthScreen .row .aboutPhoto .ferstPhoto img,
+    .therthScreen .row .aboutPhoto .secondPhoto img,
+    .therthScreen .row .aboutPhoto .therstPhoto img {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .buttonBookNow .textButtonBookNow {
+        padding-top: 4px;
+    }
+    .therthScreen .exploer .exploerText {
+        padding-top: 8px;
+        padding-left: 10px
+    }
+    .therthScreen .exploer {
+        font-size: 16pt;
+        height: 45px;
+        margin-top: 50px;
+    }
+    .footer .footerBotom .contentBlock .contentBlockTextSecond,
+    .therthScreen .aboutButton .aboutButtonFerst,
+    .therthScreen .aboutButton .aboutButtonSecond,
+    .therthScreen .aboutButton .aboutButtonTherst {
+        font-size: 14pt;
+    }
+    .footer .footerBotom .contentBlock {
+        margin-top: 65px;
+        height: 50px;
+        padding-top: 8px;
+    }
+    /* .footer .footerBotom .contentBlock .contentBlockTextSecond {
+        padding-top: 6px;
+    }
+    
+    .footer .footerBotom .contentBlock .contentBlockText {
+        font-size: 20pt;
+    } */
+}
+
+@media screen and (min-width: 750px) and (max-width: 992px) {
+    .header .taglineSmall,
+    .therthScreen .row .aboutPhoto .ferstPhoto .ferstTextSmall,
+    .therthScreen .row .aboutPhoto .secondPhoto .secondTextSmall,
+    .therthScreen .row .aboutPhoto .therstPhoto .therstTextSmall,
+    .therthScreen .aboutPhoto .aboutButtonFerstSmall,
+    .therthScreen .aboutPhoto .aboutButtonSecondSmall,
+    .therthScreen .aboutPhoto .aboutButtonTherstSmall,
+    .footer .footerBotom .row .contentBlockTextSmall {
+        display: none;
+    }
+    .header .tagline,
+    .secondScreen .titelText,
+    .therthScreen .aboutText .ferstText,
+    .therthScreen .aboutText .secondText,
+    .therthScreen .aboutText .therstText {
+        font-size: 14pt;
+    }
+    .secondScreen .aboutText,
+    .secondScreen .aboutTextSecond,
+    .buttonBookNow {
+        font-size: 10pt;
+    }
+    .buttonBookNow {
+        padding-top: 6px;
+        height: 30px;
+    }
+    .therthScreen .aboutText .ferstText,
+    .therthScreen .aboutText .secondText,
+    .therthScreen .aboutText .therstText {
+        font-weight: 325;
+    }
+    .therthScreen .row .aboutPhoto .ferstPhoto img,
+    .therthScreen .row .aboutPhoto .secondPhoto img,
+    .therthScreen .row .aboutPhoto .therstPhoto img {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .therthScreen .exploer {
+        padding-top: 4px;
+        font-size: 14pt;
+        height: 35px;
+        margin-top: 50px;
+    }
+    .therthScreen .aboutButton .aboutButtonFerst,
+    .therthScreen .aboutButton .aboutButtonSecond,
+    .therthScreen .aboutButton .aboutButtonTherst {
+        font-size: 10pt;
+    }
+    .therthScreen .aboutButton a .aboutButtonFerst,
+    .therthScreen .aboutButton a .aboutButtonSecond,
+    .therthScreen .aboutButton a .aboutButtonTherst {
+        height: 30px;
+        padding-top: 5px;
+    }
+    .footer .footerBotom .contentBlock .contentBlockText {
+        font-size: 12pt;
+    }
+    .footer .footerBotom .contentBlock .contentBlockTextSecond {
+        font-size: 10pt;
+    }
+    .footer .footerBotom .contentBlock {
+        margin-top: 65px;
+        height: 50px;
+        padding-top: 14px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header .tagline, 
+    .therthScreen .aboutText .ferstText,
+    .therthScreen .aboutText .secondText,
+    .therthScreen .aboutText .therstText,
+    .therthScreen .aboutButton .aboutButtonFerst,
+    .therthScreen .aboutButton .aboutButtonSecond,
+    .therthScreen .aboutButton .aboutButtonTherst,
+    .footer .footerBotom .row .contentBlock .contentBlockText{
+        display: none;
+    }
+    .header .taglineSmall {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .secondScreen .titelText {
+        font-size: 10pt;
+    }
+    .secondScreen .aboutText,
+    .secondScreen .aboutTextSecond {
+        font-size: 8pt;
+    }
+    .secondScreen .buttonBookNow,
+    .therthScreen .aboutPhoto .ferstPhoto a,
+    .therthScreen .aboutPhoto .secondPhoto a,
+    .therthScreen .aboutPhoto .therstPhoto a  {
+        text-decoration: none;
+    }
+    .secondScreen .buttonBookNow,
+    .therthScreen .exploer {
+        height: 20px;
+    }
+    .secondScreen .buttonBookNow { 
+        padding-top: 1px;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 60%;
+
+    }
+    .secondScreen .buttonBookNow .textButtonBookNow {
+        font-size: 10pt;
+    }
+
+    .therthScreen .aboutPhoto .ferstTextSmall,
+    .therthScreen .aboutPhoto .secondTextSmall,
+    .therthScreen .aboutPhoto .therstTextSmall {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+    .therthScreen .row .exploer {
+        margin-bottom: 25px;
+    }
+
+    .therthScreen .aboutPhoto .aboutButtonFerstSmall,
+    .therthScreen .aboutPhoto .aboutButtonSecondSmall,
+    .therthScreen .aboutPhoto .aboutButtonTherstSmall {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: #808083;
+        color: white;
+        text-align: center;
+        height: 35px;
+        padding-top: 7px;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .therthScreen .exploer {
+        margin-top: 25px;
+    }
+    .therthScreen .row .aboutPhoto .ferstPhoto img,
+    .therthScreen .row .aboutPhoto .secondPhoto img,
+    .therthScreen .row .aboutPhoto .therstPhoto img {
+        width: 100%;
+    }
+    .footer .footerBotom .contentBlock {
+        margin-top: 45px;
+        height: 40px;
+        padding-top: 14px;
+    }
+    .footer .footerBotom .contentBlock .contentBlockTextSecond {
+        padding-top: 6px;
+        font-size: 10pt;
+
+    }
+    .footer .row .contentBlock {
+        height: 100%;
+    }
+    .footer .footerBotom .contentBlock .contentBlockTextSmall {
+        font-size: 16pt;
+    }
+
+}
